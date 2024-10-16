@@ -43,6 +43,18 @@ const ViewEmployeeComponent = () => {
                                     <p className="form-control-plaintext">{employee.emailId}</p>
                                 </div>
                             </div>
+                            <div className="row mb-3">
+                                <label className="col-sm-4 col-form-label"><strong>Age:</strong></label>
+                                <div className="col-sm-8">
+                                    <p className="form-control-plaintext">{employee.age}</p>
+                                </div>
+                            </div>
+                            <div className="row mb-3">
+                                <label className="col-sm-4 col-form-label"><strong>Phone Number:</strong></label>
+                                <div className="col-sm-8">
+                                    <p className="form-control-plaintext">{employee.phoneNo}</p>
+                                </div>
+                            </div>
                         </div>
                         <div className="card-footer text-center">
                             <Link to="/employees" className="btn btn-primary">Back to List</Link>
