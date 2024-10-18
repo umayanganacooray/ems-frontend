@@ -13,7 +13,6 @@ function App() {
         <HeaderComponent />
         <div className="container">
           <Routes>
-              {
               <Route exact path="/" element={<ListEmployeeComponent />} />
               <Route path="/employees" element={<ListEmployeeComponent />} />
               <Route path="/add-employee" element= {<AddEmployeeComponent />} />
