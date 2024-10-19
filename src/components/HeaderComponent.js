@@ -6,7 +6,7 @@ const HeaderComponent = () => {
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                     <div className="container">
-                        <a href="https://javaguides.net" className="navbar-brand">
+                        <a href="https://medium.com/@ume.cooray/deploying-a-web-app-using-choreo-29969bc46b7b" className="navbar-brand">
                             Employee Management Application
                         </a>
                     </div>
