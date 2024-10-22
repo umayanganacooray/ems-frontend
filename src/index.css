@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  padding-top: 60px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  /*min-height: 100vh;  Ensures the container fills the entire viewport height */
+  overflow-y: auto; /* Adds vertical scroll if content overflows */
+  padding-bottom: 30px;
 }

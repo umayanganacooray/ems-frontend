@@ -54,7 +54,7 @@ const AddEmployeeComponent = () => {
                     <div className="card">
                         <div className="card-body">
                             {title()}
-                            <form className="mb-5">
+                            <form>
                                 <div className="mb-3">
                                     <label htmlFor="firstName" className="form-label">First Name</label>
                                     <input type="text" className="form-control" id="firstName" placeholder="Enter first name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
